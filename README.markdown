@@ -2,12 +2,17 @@
 
 #### Class Definition
 
+* "define a class"
+
 ```ruby
 class Thing
 end
 ```
 
 #### Creating an instance of a class (instantiating) without arguments
+
+* "create a new instance of Thing"
+* "instantiate a Thing"
 
 ```ruby
 Thing.new
@@ -21,6 +26,9 @@ Thing.new("something", "else")
 
 #### Instance Variables
 
+* "assign instance variables"
+* "assign attributes"
+
 ```ruby
 class Thing
   def initialize(first_name, last_name)
@@ -32,6 +40,8 @@ end
 
 #### Method definition inside of a class
 
+* "define a method"
+
 ```ruby
 class ClassName
   def method_name
@@ -41,12 +51,19 @@ end
 
 #### Calling a method on an instance
 
+* "call the _________ method"
+* "call ________"
+* "dot _________"
+
 ```ruby
 thing = Thing.new
 thing.method_name
 ```
 
 #### Return Values
+
+* "what the method returns"
+* "the return value of ____________"
 
 ```ruby
 class Thing
@@ -64,6 +81,9 @@ end
 
 #### Local Variable
 
+* "assign a local variable"
+* "assign 6 to _________"
+
 ```ruby
 class Thing
   def method_name
@@ -76,6 +96,9 @@ end
 
 #### Parameter
 
+* "accept a parameter"
+* "accept an argument"
+
 ```ruby
 class Thing
   def method_name(first_name, last_name)
@@ -86,20 +109,11 @@ end
 
 #### Calling a method with arguments
 
+* "pass in arguments to _________"
+
 ```ruby
 thing = Thing.new
 thing.method_name("rachel", "warbelow")
-```
-
-#### Instance Variables
-
-```ruby
-class Thing
-  def initialize(first_name, last_name)
-    @first_name = first_name
-    @last_name  = last_name
-  end
-end
 ```
 
 #### Getter Methods
@@ -113,6 +127,8 @@ end
 ```
 
 #### Attribute Readers
+
+* "an attr_reader for @something"
 
 ```ruby
 class Thing
@@ -132,6 +148,8 @@ end
 
 #### Attribute Writers
 
+* "an attr_writer for @something"
+
 ```ruby
 class Thing
   attr_writer :first_name
@@ -139,6 +157,8 @@ end
 ```
 
 #### Attribute Accessors (reader + writer)
+
+* "an attr_accessor for @something"
 
 ```ruby
 class Thing
